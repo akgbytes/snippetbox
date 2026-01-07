@@ -1,0 +1,44 @@
+# Go build outputs
+/bin/
+/build/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Dependency directories (if any)
+vendor/
+
+# Environment & config
+.env
+.env.*
+*.local
+
+# Temporary / runtime files
+tmp/
+*.log
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS files
+Thumbs.db
+
+# Air (live reload)
+.air.toml
+
+# Coverage reports
+coverage.out
+coverage.html
